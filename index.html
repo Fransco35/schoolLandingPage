@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font style -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i,400" rel="stylesheet">
+         <!-- CSS stylesheet -->
+          <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container">
+    <!-- Navbar -->
+    <nav class="nav">
+            <div class="nav__logo">
+                <a href="#"> <strong  class="nav__logo--strong"> Christ </strong>  The King Academy</a>
+            </div>
+            <div id="mainListDiv" class="nav__main-list">
+                <ul class="navlinks">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#admission">Admission</a></li>
+                    <li><a href="#cta">Contact</a></li>
+
+                </ul>
+            </div>
+  
+  
+            <span class="nav__navTrigger navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+    </nav>
+
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="header__title mb-sm">
+        <h3> Christ The King Academy</h3>
+      </div>
+
+      <div class="header__body">
+        <h1 class="mb-sm"> Offering quality education to the future leaders of tomorrow</h1>
+        <button class="btn"><a href="#cta">Contact Us</a></button>
+
+      </div>
+    </header>
+
+    <!-- Benefits -->
+    <div id="benefits" class="benefits">
+      <div class="benefits__content">
+        <svg class="benefits__content-icon">
+          <use xlink:href='img/sprite.svg#icon-building'></use>
+        </svg>
+
+        <h4 class="heading-4">Model Enviroment</h4>
+
+        <p class="benefits__content-text">Serene Learning space</p>
+      </div>
+
+      <div class="benefits__content">
+        <svg class="benefits__content-icon">
+          <use xlink:href='img/sprite.svg#icon-graduation-cap1'></use>
+        </svg>
+
+        <h4 class="heading-4">Graduation</h4>
+
+        <p class="benefits__content-text">Getting a Certificate</p>
+      </div>
+
+      <div class="benefits__content">
+        <svg class="benefits__content-icon">
+          <use xlink:href='img/sprite.svg#icon-futbol-o'></use>
+        </svg>
+
+        <h4 class="heading-4">Sports</h4>
+
+        <p class="benefits__content-text">Sporting Activities</p>
+      </div>
+
+      <div class="benefits__content">
+        <svg class="benefits__content-icon">
+          <use xlink:href='img/sprite.svg#icon-child'></use>
+        </svg>
+
+        <h4 class="heading-4">Social</h4>
+
+        <p class="benefits__content-text">Overall Well-being</p>
+      </div>
+     
+    </div>
+
+    <!-- About us  -->
+    <section  class="about">
+      <div id="about"class="about__content">
+        <h2 class="about__content-h2 heading-2 ">About Our School</h2>
+
+       <p class="about__content-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatibus accusamus rerum dolorum beatae ullam perspiciatis veniam commodi quas error quam?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, iure est. Totam cumque similique eos voluptate,
+       ipsum voluptas ipsam perspiciatis eius eveniet debitis adipisci laboriosam ex excepturi velit? Aliquid, incidunt!
+      </p>
+      </div>
+      
+    </section>
+
+    <!-- Admission -->
+        <div id="admission"  class="admission__pic">
+          <img src="img/admission.jfif" alt="Admission banner">
+        </div>
+        
+        <div class="admission__text">
+          <h2 class="heading-2">Apply For Admission</h2>
+          <h3 class="heading-3">2022/23 applications are now open</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo eveniet quis,
+            facere nam eum, quibusdam enim magni aut recusandae architecto dolore nemo illum, vitae aliquid.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, reiciendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, earum.
+          </p>
+
+        <button class="btn"><a href="#cta">Contact Us</a></button>
+
+        </div>
+
+
+    <!-- call to action -->
+    <section id="cta" class="cta">
+      <div class="cta__details">
+        <h2 class="heading-2 mb-sm">Contact details</h2>
+        <p class="mb-sm"> Get In Touch with us about Admission and further enquiries</p>
+
+        <ul>
+            <li>7 Agbonmanwen Street, Off Omorogbe Street Lagos, Benin City, Edo State, NG</li>
+            <li>+234 816 861 5545</li>
+            <li>+234 701 520 5722</li>
+            <li><a href="mailto:office@domain.com">crikgiacd@gmail.com</a></li>
+        </ul>
+      </div>
+      
+      <div class="cta__form">
+        <form id="contactForm">
+          <div class="cta__form-input mb-sm">
+              <input type="text" id="cname" placeholder="Enter your full name" required>
+              <label for="cname">Name</label>
+          </div>
+          <div class="cta__form-input mb-sm">
+              <input type="email" id="cemail" placeholder="Enter your Email address" required>
+              <label for="cemail">Email</label>
+          </div>
+          <div>
+              <textarea class="form-control-textarea" id="cmessage" rows='7' placeholder="How can we be of service to you?"  required></textarea>
+              <label class="label-control" for="cmessage" >Details</label>
+          </div>
+          <div>
+              <button class="cta__btn" type="submit">Submit</button>
+          </div>
+      </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="footer__copyright">
+      &copy; Copyright All Rights Reserved, 2022
+    </div> 
+    <div class="footer__text">
+      <a href="https://francisinose.herokuapp.com">Contact the Developer</a>
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
