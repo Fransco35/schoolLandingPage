@@ -1,7 +1,7 @@
 # schoolLandingPage
 
 ```
-This is a landing page built with HTMl, SCSS and jQuery.
+This is a landing page built with HTML, SCSS and jQuery.
 ```
 * The overall layout was built by utilizing the power of CSS grid which made both responsiveness and architecture of the website easy to carry out.
 * Advanced CSS (SCSS) was used to build each section and some components of the page and the BEM notation was also utilized to make the styling easier and more orderly.
